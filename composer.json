@@ -1,0 +1,19 @@
+{
+    "name": "hilgertl/lh-plugin",
+    "description": "LH plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Lubos Hilgert",
+            "email": "lubos@hilgert.cz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{"LHPlugin\\" : "./src"},
+        "classmap": ["src/"]
+    }
+}
+
